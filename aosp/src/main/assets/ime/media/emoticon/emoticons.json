@@ -1,0 +1,43 @@
+{
+  "type": "emoticon",
+  "name": "emoticons",
+  "direction": "ltr",
+  "arrangement": [
+    [
+
+
+      { "icon":   "\uD83C\uDD80", "meaning": ["laughing", "big grin"] },
+      { "icon":   "\uD83C\uDD86", "meaning": ["cheeky", "tongue sticking out"] },
+      { "icon":   "\uD83C\uDD74", "meaning": ["wink", "smirk"] },
+      { "icon":   "\uD83C\uDD81", "meaning": ["sad", "frown"] },
+      { "icon":   "\uD83C\uDD83", "meaning": ["happy", "smiley"] },
+      { "icon":   "\uD83C\uDD88", "meaning": ["indecision"] },
+      { "icon":   "\uD83C\uDD84", "meaning": ["embarrassing"] },
+      { "icon":   "\uD83C\uDD78", "meaning": ["happy", "smiley"] },
+      { "icon":    "\uD83C\uDD7E", "meaning": ["surprised"] },
+      { "icon":   "\uD83C\uDD7F", "meaning": ["kiss"] }
+    ], [
+
+
+      { "icon":   "\uD83C\uDD70", "meaning": ["laughing", "big grin"] },
+      { "icon":   "\uD83C\uDD82", "meaning": ["crying"] },
+      { "icon":  "\uD83C\uDD73", "meaning": ["skeptical", "annoyed"] },
+      { "icon":  "\uD83C\uDD75", "meaning": ["angel", "saint", "innocent"] },
+      { "icon":  "\uD83C\uDD76", "meaning": ["angel", "saint", "innocent"] },
+      { "icon":  "\uD83C\uDD77", "meaning": ["angel", "saint", "innocent"] },
+      { "icon":  "\uD83C\uDD79", "meaning": ["angel", "saint", "innocent"] },
+      { "icon":  "\uD83C\uDD7A", "meaning": ["angel", "saint", "innocent"] },
+      { "icon":  "\uD83C\uDD7B", "meaning": ["angel", "saint", "innocent"] }
+    ], [
+
+
+      { "icon":   "\uD83C\uDD89", "meaning": ["sad", "frown", "angry"] },
+      { "icon":   "\uD83C\uDD87", "meaning": ["joyful"] },
+      { "icon":   "\uD83C\uDD72", "meaning": ["indecision", "straight face"] },
+      { "icon":  "\uD83C\uDD85", "meaning": ["crying"] },
+      { "icon":   "\uD83C\uDD71", "meaning": ["tired"] },
+      { "icon": "\uD83C\uDD7D", "meaning": ["amazed"] },
+      { "icon": "\uD83C\uDD7C", "meaning": ["amazed"] }
+    ]
+  ]
+}

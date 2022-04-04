@@ -1,0 +1,51 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="keyboard.neon.newboard" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="23"
+6-->/Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="31" />
+7-->/Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml
+8
+9    <!-- Permission needed to vibrate if the user has key press vibration enabled -->
+10    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+10-->/Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:6:5-79
+10-->/Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:6:22-76
+11    <uses-permission android:name="android.permission.VIBRATE" />
+11-->/Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:7:5-66
+11-->/Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:7:22-63
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:8:5-67
+12-->/Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:8:22-64
+13
+14    <application
+14-->/Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:10:5-28:19
+15        android:allowBackup="false"
+15-->/Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:11:9-36
+16        android:supportsRtl="true" >
+16-->/Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:12:9-35
+17
+18        <!-- Crash Dialog Activity -->
+19        <activity
+19-->/Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:16:9-19:55
+20            android:name="keyboard.neon.newboard.crashutility.CrashDialogActivity"
+20-->/Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:17:13-83
+21            android:label="@string/crash_dialog__title"
+21-->/Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:18:13-56
+22            android:theme="@style/CrashDialogTheme" />
+22-->/Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:19:13-52
+23
+24        <provider
+24-->/Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:22:9-26:50
+25            android:name="keyboard.neon.newboard.ime.clip.provider.FlorisContentProvider"
+25-->/Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:23:13-90
+26            android:authorities="com.neon.keyboard.fancyfonts.fancy.keyboard"
+26-->/Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:24:13-78
+27            android:exported="false"
+27-->/Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:25:13-37
+28            android:grantUriPermissions="true" />
+28-->/Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:26:13-47
+29    </application>
+30
+31</manifest>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.neonkeyboardnew">
+
+
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name=".App"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NeonKeyboardNew">
+
+
+        <activity
+            android:name=".TestKeyboardActivity"
+            android:exported="false"
+            android:label="Apply Theme"
+            android:launchMode="singleTop"
+            android:screenOrientation="sensorPortrait" />
+
+        <activity
+            android:name=".IntroActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:noHistory="true"
+            android:screenOrientation="sensorPortrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".EnableKeyboard"
+            android:exported="true"
+            android:label="Enable/Disable Keyboard"
+            android:launchMode="singleTop"
+            android:screenOrientation="sensorPortrait" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:label="Neon Keyboard"
+            android:screenOrientation="portrait" />
+
+
+        <service
+            android:name="keyboard.neon.newboard.KeyboardImeiService"
+            android:directBootAware="true"
+            android:exported="true"
+            android:label="@string/keyboardServiceName"
+            android:permission="android.permission.BIND_INPUT_METHOD">
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/method" />
+        </service>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/appId" />
+
+    </application>
+
+</manifest>

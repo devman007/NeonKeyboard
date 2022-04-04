@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:theme="@style/toolBarStyles"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:titleTextColor="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/titleKeyboardTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:fontFamily="@font/quicksand_medium"
+        android:padding="8dp"
+        android:text="Enable Neon Keyboard"
+        android:textColor="?attr/textColor"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/illusImage"
+        android:layout_width="250dp"
+        android:layout_height="292dp"
+        app:layout_constraintBottom_toTopOf="@+id/enableKeyboardBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleKeyboardTv"
+        app:layout_constraintVertical_bias="0.19"
+        app:srcCompat="@drawable/steponebg" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/settingsTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:gravity="center"
+        android:text="@string/pleaseCheckSettings"
+        android:textAppearance="@style/pleaseCheckSettingsStyle"
+        android:textColor="?attr/textColor"
+        app:layout_constraintBottom_toTopOf="@+id/enableKeyboardBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/enableKeyboardBtn"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/quicksand_medium"
+        android:lineSpacingExtra="2dp"
+        android:stateListAnimator="@null"
+        android:text="Enable Keyboard"
+        android:layout_marginBottom="@dimen/_16sdp"
+        android:textColor="?attr/keyboardEnableDisableButtonColor"
+        app:layout_constraintBottom_toTopOf="@+id/nativeAdLiveContainer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    <FrameLayout
+        android:id="@+id/nativeAdLiveContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <include
+            android:id="@+id/placeHolderSmallAd"
+            layout="@layout/native_placeholder_smallad" />
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

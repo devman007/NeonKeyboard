@@ -1,0 +1,181 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:key="glide"
+        app:title="@string/pref__glide__title">
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:summary="@string/pref__glide__enabled__summary"
+            app:disableDependentsState="true"
+            app:iconSpaceReserved="false"
+            app:key="glide__enabled"
+            app:title="@string/pref__glide__enabled__label" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:summary="@string/pref__glide__show_trail__summary"
+            app:iconSpaceReserved="false"
+            app:key="glide__show_trail"
+            app:title="@string/pref__glide__show_trail__label" />
+
+        <keyboard.neon.newboard.settings.components.DialogSeekBarPreference
+            android:defaultValue="200"
+            app:allowDividerAbove="false"
+            app:dependency="glide__show_trail"
+            app:iconSpaceReserved="false"
+            app:key="glide__trail_fade_duration"
+            app:max="500"
+            app:min="0"
+            app:seekBarIncrement="10"
+            app:title="@string/pref__glide_trail_fade_duration"
+            app:unit="ms" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            app:dependency="glide__show_trail"
+            app:iconSpaceReserved="false"
+            app:key="glide__show_preview"
+            app:title="@string/pref__glide__show_preview" />
+
+        <keyboard.neon.newboard.settings.components.DialogSeekBarPreference
+            android:defaultValue="150"
+            app:allowDividerAbove="false"
+            app:dependency="glide__show_preview"
+            app:iconSpaceReserved="false"
+            app:key="glide__preview_refresh_delay"
+            app:max="500"
+            app:min="50"
+            app:seekBarIncrement="25"
+            app:title="@string/pref__glide_preview_refresh_delay"
+            app:unit="ms" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:key="general_gestures"
+        app:title="@string/pref__gestures__general_title">
+
+        <ListPreference
+            android:defaultValue="shift"
+            app:dependency="glide__enabled"
+            app:entries="@array/pref__gestures__swipe_action__entries"
+            app:entryValues="@array/pref__gestures__swipe_action__values"
+            app:iconSpaceReserved="false"
+            app:key="gestures__swipe_up"
+            app:title="@string/pref__gestures__swipe_up__label"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:defaultValue="hide_keyboard"
+            app:dependency="glide__enabled"
+            app:entries="@array/pref__gestures__swipe_action__entries"
+            app:entryValues="@array/pref__gestures__swipe_action__values"
+            app:iconSpaceReserved="false"
+            app:key="gestures__swipe_down"
+            app:title="@string/pref__gestures__swipe_down__label"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:defaultValue="switch_to_next_subtype"
+            app:dependency="glide__enabled"
+            app:entries="@array/pref__gestures__swipe_action__entries"
+            app:entryValues="@array/pref__gestures__swipe_action__values"
+            app:iconSpaceReserved="false"
+            app:key="gestures__swipe_left"
+            app:title="@string/pref__gestures__swipe_left__label"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:defaultValue="switch_to_prev_subtype"
+            app:dependency="glide__enabled"
+            app:entries="@array/pref__gestures__swipe_action__entries"
+            app:entryValues="@array/pref__gestures__swipe_action__values"
+            app:iconSpaceReserved="false"
+            app:key="gestures__swipe_right"
+            app:title="@string/pref__gestures__swipe_right__label"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:key="space_bar_gestures"
+        app:title="@string/pref__gestures__space_bar_title">
+
+        <ListPreference
+            android:defaultValue="switch_to_prev_keyboard"
+            app:entries="@array/pref__gestures__swipe_action__entries"
+            app:entryValues="@array/pref__gestures__swipe_action__values"
+            app:iconSpaceReserved="false"
+            app:key="gestures__space_bar_swipe_up"
+            app:title="@string/pref__gestures__space_bar_swipe_up__label"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:defaultValue="move_cursor_left"
+            app:entries="@array/pref__gestures__swipe_action__entries"
+            app:entryValues="@array/pref__gestures__swipe_action__values"
+            app:iconSpaceReserved="false"
+            app:key="gestures__space_bar_swipe_left"
+            app:title="@string/pref__gestures__space_bar_swipe_left__label"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:defaultValue="move_cursor_right"
+            app:entries="@array/pref__gestures__swipe_action__entries"
+            app:entryValues="@array/pref__gestures__swipe_action__values"
+            app:iconSpaceReserved="false"
+            app:key="gestures__space_bar_swipe_right"
+            app:title="@string/pref__gestures__space_bar_swipe_right__label"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:defaultValue="show_input_method_picker"
+            app:entries="@array/pref__gestures__swipe_action__entries"
+            app:entryValues="@array/pref__gestures__swipe_action__values"
+            app:iconSpaceReserved="false"
+            app:key="gestures__space_bar_long_press"
+            app:title="@string/pref__gestures__space_bar_long_press__label"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:iconSpaceReserved="true"
+        app:key="other_gestures"
+        app:title="@string/pref__gestures__other_title">
+
+        <ListPreference
+            android:defaultValue="delete_characters_precisely"
+            app:entries="@array/pref__gestures__swipe_action_delete__entries"
+            app:entryValues="@array/pref__gestures__swipe_action_delete__values"
+            app:iconSpaceReserved="true"
+            app:key="gestures__delete_key_swipe_left"
+            app:title="@string/pref__gestures__delete_key_swipe_left__label"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:defaultValue="normal"
+            app:entries="@array/pref__gestures__swipe_velocity_threshold__entries"
+            app:entryValues="@array/pref__gestures__swipe_velocity_threshold__values"
+            app:iconSpaceReserved="false"
+            app:key="gestures__swipe_velocity_threshold"
+            app:title="@string/pref__gestures__swipe_velocity_threshold__label"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:defaultValue="normal"
+            app:entries="@array/pref__gestures__swipe_distance_threshold__entries"
+            app:entryValues="@array/pref__gestures__swipe_distance_threshold__values"
+            app:iconSpaceReserved="false"
+            app:key="gestures__swipe_distance_threshold"
+            app:title="@string/pref__gestures__swipe_distance_threshold__label"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

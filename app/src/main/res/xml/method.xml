@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<input-method xmlns:android="http://schemas.android.com/apk/res/android"
+    android:settingsActivity="com.example.neonkeyboardnew.MainActivity"
+    android:supportsSwitchingToNextInputMethod="true">
+
+    <!-- Add default system subtype so we can properly set the icon and label -->
+    <subtype
+        android:label="@string/keyboardServiceName"
+        android:icon="@mipmap/ic_launcher"
+        android:imeSubtypeMode="keyboard"
+        android:imeSubtypeExtraValue="AsciiCapable"
+        android:isAsciiCapable="true"
+        android:overridesImplicitlyEnabledSubtype="true"/>
+
+</input-method>

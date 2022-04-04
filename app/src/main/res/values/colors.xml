@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#0016DD</color>
+    <color name="purple_500">#0016DD</color>
+    <color name="purple_700">#0016DD</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="screenBgColor">#ECECEC</color>
+    <color name="testColor">#1AFFFFFF</color>
+    <color name="testColorBlack">#80FFFFFF</color>
+    <color name="testColorBlue">#221F1F</color>
+    <color name="nightModeTextColor">#E6E3E3</color>
+    <color name="lightModeTextColor">#000000</color>
+    <color name="screenLightModeTextColor">#ECECEC</color>
+    <color name="screenDarkModeTextColor">#000000</color>
+    <color name="nativeAdLightModeTextColor">#000000</color>
+    <color name="nativeAdDarkModeTextColor">#000000</color>
+    <color name="ratingUnselected">#605F5F</color>
+    <color name="UnselectedIconColorNight">#999999</color>
+    <color name="adColor">#FE8F00</color>
+
+    <color name="placeholder_bg">#dddddd</color>
+</resources>

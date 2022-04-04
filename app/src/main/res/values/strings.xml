@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Neon Keyboard</string>
+    <string name="keyboardServiceName">Neon Keyboard </string>
+
+
+    <string name="pleaseCheckSettings">Please check “Neon Keyboard” in your Languages \n and input settings.This will authorize it to run on \n your device.</string>
+    <string name="checkSettingsStepTwo">Next, Select “Neon Keyboard” as your active \n text-input method.</string>
+    <string name="checkSettingsStepThree">You are all set, now you can use “Neon Keyboard” \n as input method</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment_n">Hello NEON</string>
+    <string name="no_favourite_themes">No Favourite Themes</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="pricing_pla">Pricing Plan</string>
+    <string name="choose_a_su">Choose a subscription plan to unlock ADs Free \n Version and Uninterrupted User Experience</string>
+    <string name="terms_priva"> Terms | Privacy Policy | Cancel Anytime </string>
+    <string name="yearly_offe">Yearly Offer</string>
+    <string name="monthly_pla">Monthly Plan</string>
+    <string name="cancel">Cancel</string>
+    <string name="may_be_later"> <u> May be Later </u> </string>
+    <string name="exitbutton">exitButton</string>
+    <string name="do_you_like_our_app">Do you like our app?</string>
+    <string name="give_us_a_quick_rating_so_we_know_if_you_like">Give us a quick rating so we know if you like?</string>
+    <string name="delete_all_fav_themes">delete all fav themes</string>
+    <string name="feedback_is_valueable">feedback is valueable</string>
+    <string name="ad_attribution">AD</string>
+    <string name="ad_is_loading">Ad is Loading...</string>
+</resources>

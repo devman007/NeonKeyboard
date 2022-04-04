@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textColor" format="color" />
+    <attr name="screenBgColor" format="color" />
+    <attr name="nativeAdTextColor" format="color" />
+    <attr name="keyboardEnableDisableButtonColor" format="color" />
+
+    <attr name="adLoaderColor" format="color"></attr>
+
+
+    <!--    <attr name="textColorRvItem" format="color" />-->
+    <!--    <attr name="innerFontItem" format="color" />-->
+    <!--    <attr name="optionMenuIcon" format="color" />-->
+    <!--    <attr name="fontGridItemsBg" format="color" />-->
+
+</resources>

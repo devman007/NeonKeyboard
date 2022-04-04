@@ -1,0 +1,127 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NeonKeyboardNew" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+
+        <item name="textColor">@color/lightModeTextColor</item>
+        <item name="screenBgColor">@color/screenLightModeTextColor</item>
+        <item name="nativeAdTextColor">@color/nativeAdLightModeTextColor</item>
+        <item name="adLoaderColor">@color/purple_500</item>
+        <item name="keyboardEnableDisableButtonColor">@color/white</item>
+
+
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="pleaseCheckSettingsStyle">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #0E0D0D
+        </item>
+
+    </style>
+
+
+    <style name="tabBarStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/quicksand_medium</item>
+    </style>
+
+
+    <style name="applyThemeButtonStyles">
+
+        <item name="android:elevation">0dp</item>
+        <item name="elevation">0dp</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/purple_500</item>
+        <item name="rippleColor">@color/purple_500</item>
+
+    </style>
+
+
+    <style name="toolBarStyles" parent="Theme.NeonKeyboardNew">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <!--        <item name="android:homeAsUpIndicator">@drawable/ic_back_arrow</item>-->
+    </style>
+
+    <style name="appFontFamily">
+        <item name="fontFamily">@font/quicksand_medium</item>
+    </style>
+
+    <style name="pricing_pla" parent="appFontFamily">
+
+        <item name="android:textSize">
+            24sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="choose_a_su" parent="appFontFamily">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #757575
+        </item>
+
+    </style>
+
+    <style name="yearly_offer" parent="appFontFamily">
+
+        <item name="android:textSize">12sp</item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <style name="CustomBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="CustomBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+    </style>
+
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/ratingUnselected</item>
+        <item name="colorControlActivated">@color/purple_500</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize10Percent" parent="">
+        <item name="cornerSize">10%</item>
+    </style>
+
+    <style name="Theme.NeonKeyboardNew.AdAttribution">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:text">@string/ad_attribution</item>
+        <item name="android:background">@color/adColor</item>
+    </style>
+
+</resources>

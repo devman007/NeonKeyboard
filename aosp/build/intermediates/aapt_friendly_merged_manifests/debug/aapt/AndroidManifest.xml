@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="keyboard.neon.newboard" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="31" />
+
+    <!-- Permission needed to vibrate if the user has key press vibration enabled -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="false"
+        android:supportsRtl="true" >
+
+        <!-- Crash Dialog Activity -->
+        <activity
+            android:name="keyboard.neon.newboard.crashutility.CrashDialogActivity"
+            android:label="@string/crash_dialog__title"
+            android:theme="@style/CrashDialogTheme" />
+
+        <provider
+            android:name="keyboard.neon.newboard.ime.clip.provider.FlorisContentProvider"
+            android:authorities="com.neon.keyboard.fancyfonts.fancy.keyboard"
+            android:exported="false"
+            android:grantUriPermissions="true" />
+    </application>
+
+</manifest>

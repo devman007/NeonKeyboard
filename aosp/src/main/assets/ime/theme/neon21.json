@@ -1,0 +1,92 @@
+{
+  "$type": "dev.patrickgold.florisboard.ime.theme.Theme",
+  "name": "neon1",
+  "label": "Neon 1",
+  "authors": [
+    "ninesol"
+  ],
+  "isNeon": true,
+  "animationName": "neonanim10.json",
+  "isNightTheme": false,
+  "attributes": {
+    "window": {
+      "colorPrimary": "#FF4F81",
+      "colorPrimaryDark": "#C33F64",
+      "colorAccent": "#FF9800",
+      "navigationBarColor": "#000000",
+      "navigationBarLight": "true",
+      "semiTransparentColor": "#20000000",
+      "textColor": "#FFFFFF",
+      "tabTextUnselected": "#80FFFFFF",
+      "tabTextSelected": "#FFFFFF"
+    },
+    "keyboard": {
+      "background": "#000000",
+      "drawableImageName": "theme2"
+    },
+    "key": {
+      "background": "#36FFFFFF",
+      "backgroundPressed": "#595858",
+      "foreground": "@window/textColor",
+      "foregroundPressed": "@window/textColor",
+      "showBorder": "false",
+      "elevation": "0.0",
+      "strokeColor": "#00000000",
+      "cornerRadius": "6.0"
+    },
+    "key:enter": {
+      "background": "@key/background",
+      "backgroundPressed": "@key/backgroundPressed",
+      "foreground": "#FFFFFF",
+      "foregroundPressed": "#FFFFFF"
+    },
+    "key:shift": {
+      "background": "@key/background",
+      "backgroundPressed": "@key/backgroundPressed",
+      "foreground": "#FFFFFF",
+      "foregroundPressed": "#FFFFFF"
+    },
+    "key:shift:capslock": {
+      "foreground": "@window/colorAccent",
+      "foregroundPressed": "@window/colorAccent"
+    },
+    "media": {
+      "foreground": "#FFFFFF",
+      "foregroundAlt": "#757575"
+    },
+    "oneHanded": {
+      "background": "#E8F5E9",
+      "foreground": "#424242"
+    },
+    "popup": {
+      "background": "#B3000000",
+      "backgroundActive": "#03A9F4",
+      "foreground": "#FFFFFF"
+    },
+    "privateMode": {
+      "background": "#A000FF",
+      "foreground": "#FFFFFF"
+    },
+    "smartbar": {
+      "background": "transparent",
+      "foreground": "@window/textColor",
+      "foregroundAlt": "#8A8A8A"
+    },
+    "smartbarButton": {
+      "background": "@key/background",
+      "foreground": "@key/foreground"
+    },
+    "extractEditLayout": {
+      "background": "#E8E8E8",
+      "foreground": "@window/textColor",
+      "foregroundAlt": "#8A8A8A"
+    },
+    "extractActionButton": {
+      "background": "@smartbarButton/background",
+      "foreground": "@smartbarButton/foreground"
+    },
+    "glideTrail": {
+      "foreground": "#204CAF50"
+    }
+  }
+}

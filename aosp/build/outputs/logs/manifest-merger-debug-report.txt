@@ -1,0 +1,61 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml
+		INJECTED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:7:22-63
+uses-permission#android.permission.INTERNET
+ADDED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:8:22-64
+application
+ADDED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:10:5-28:19
+	android:supportsRtl
+		ADDED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:12:9-35
+	android:allowBackup
+		ADDED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:11:9-36
+activity#keyboard.neon.newboard.crashutility.CrashDialogActivity
+ADDED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:16:9-19:55
+	android:label
+		ADDED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:18:13-56
+	android:theme
+		ADDED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:19:13-52
+	android:name
+		ADDED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:17:13-83
+provider#keyboard.neon.newboard.ime.clip.provider.FlorisContentProvider
+ADDED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:22:9-26:50
+	android:grantUriPermissions
+		ADDED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:26:13-47
+	android:authorities
+		ADDED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:24:13-78
+	android:exported
+		ADDED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml:23:13-90
+uses-sdk
+INJECTED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml
+INJECTED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml
+INJECTED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml
+INJECTED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml
+		ADDED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml
+		INJECTED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml
+		ADDED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml
+		INJECTED from /Users/sikandar/AndroidStudioProjects/NeonKeyboardNew/aosp/src/main/AndroidManifest.xml
